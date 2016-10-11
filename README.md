@@ -18,8 +18,8 @@ Works transparently in math mode:
 - `$Ω_Μ=0.3$`
 
 Automatically converts space-delimited tokens to math mode if needed:
-- `z≠3` becomes `$z\ne{}3$`
-- `z ≠ 3` becomes `z $\ne{}$ 3`
+- `z≠3` becomes `$z\neq{}3$`
+- `z ≠ 3` becomes `z $\neq{}$ 3`
 
 Needs
 -----
