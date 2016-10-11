@@ -14,18 +14,19 @@ to LaTeX or pdf.
 Features
 --------
 Works transparently in math mode:
-`$Λ$CDM`
-`$Ω_Μ=0.3$`
+- `$Λ$CDM`
+- `$Ω_Μ=0.3$`
+
 Automatically converts space-delimited tokens to math mode if needed:
-`z≠3` becomes `$z\ne{}3$`
-`z ≠ 3` becomes `z $\ne{}$ 3`
+- `z≠3` becomes `$z\ne{}3$`
+- `z ≠ 3` becomes `z $\ne{}$ 3`
 
 Needs
 -----
-python (probably 3)
-panflutes
+- python (probably 3)
+- panflutes
 
 Run
 ---
-pandoc test.md --filter test_filter.py -t latex -o test.tex
-pandoc test.md --filter test_filter.py -t latex -o test.pdf
+- pandoc test.md --filter test_filter.py -t latex -o test.tex
+- pandoc test.md --filter test_filter.py -t latex -o test.pdf
