@@ -24,7 +24,13 @@ Automatically converts space-delimited tokens to math mode if needed:
 Needs
 -----
 - python (probably 3)
-- panflutes
+- panflute
+
+Files
+-----
+- test.md - Sample input markdown (wot you write)
+- test.tex - Sample latex output (wot you submit to the journal)
+- test.pdf - Sample pdf output (wot you send to collaborators)
 
 Run
 ---
